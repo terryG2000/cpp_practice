@@ -4,26 +4,27 @@
             "label": "compile",
             "command": "g++",
             "args": [
+                "-std=c++14",
                 "-g",
                 "${file}",
                 "-o",
                 "${fileDirname}/Binary/${fileBasenameNoExtension}"
             ],
-            "problemMatcher": {
-                "owner": "cpp",
-                "fileLocation": [
-                    "relative",
-                    "${workspaceRoot}"
-                ],
-                "pattern": {
-                    "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
-                    "file": 1,
-                    "line": 2,
-                    "column": 3,
-                    "severity": 4,
-                    "message": 5
-                }
-            },
+            // "problemMatcher": {
+            //     "owner": "cpp",
+            //     "fileLocation": [
+            //         "relative",
+            //         "${workspaceRoot}"
+            //     ],
+            //     "pattern": {
+            //         "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+            //         "file": 1,
+            //         "line": 2,
+            //         "column": 3,
+            //         "severity": 4,
+            //         "message": 5
+            //     }
+            // },
             "group": {
                 "kind": "build",
                 "isDefault": true

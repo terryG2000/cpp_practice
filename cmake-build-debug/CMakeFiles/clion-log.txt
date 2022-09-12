@@ -1,0 +1,38 @@
+/home/rk3399/.cache/JetBrains/RemoteDev/dist/71861dbc5a9e2_CLion-2022.2.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/rk3399/.cache/JetBrains/RemoteDev/dist/71861dbc5a9e2_CLion-2022.2.1/bin/ninja/linux/ninja -DCMAKE_C_COMPILER=/usr/bin/g++ -DCMAKE_CXX_COMPILER=/usr/bin/g++ -G Ninja -S /home/rk3399/cpp_practice -B /home/rk3399/cpp_practice/cmake-build-debug
+-- The C compiler identification is unknown
+-- The CXX compiler identification is GNU 7.5.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - failed
+-- Check for working C compiler: /usr/bin/g++
+-- Check for working C compiler: /usr/bin/g++ - broken
+CMake Error at /home/rk3399/.cache/JetBrains/RemoteDev/dist/71861dbc5a9e2_CLion-2022.2.1/bin/cmake/linux/share/cmake-3.23/Modules/CMakeTestCCompiler.cmake:69 (message):
+  The C compiler
+
+    "/usr/bin/g++"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: /home/rk3399/cpp_practice/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):/home/rk3399/.cache/JetBrains/RemoteDev/dist/71861dbc5a9e2_CLion-2022.2.1/bin/ninja/linux/ninja cmTC_39552 && [1/2] Building C object CMakeFiles/cmTC_39552.dir/testCCompiler.c.o
+    FAILED: CMakeFiles/cmTC_39552.dir/testCCompiler.c.o 
+    /usr/bin/g++    -o CMakeFiles/cmTC_39552.dir/testCCompiler.c.o -c /home/rk3399/cpp_practice/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+    /home/rk3399/cpp_practice/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c:2:3: error: #error "The CMAKE_C_COMPILER is set to a C++ compiler"
+     # error "The CMAKE_C_COMPILER is set to a C++ compiler"
+       ^~~~~
+    ninja: build stopped: subcommand failed.
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/rk3399/cpp_practice/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/home/rk3399/cpp_practice/cmake-build-debug/CMakeFiles/CMakeError.log".
