@@ -1,0 +1,42 @@
+[
+{
+  "directory": "/home/rk3399/cpp_practice/build",
+  "command": "/usr/bin/g++     -g   -std=gnu++14 -o CMakeFiles/cpp_practice.dir/basics/class.cpp.o -c /home/rk3399/cpp_practice/basics/class.cpp",
+  "file": "/home/rk3399/cpp_practice/basics/class.cpp"
+},
+{
+  "directory": "/home/rk3399/cpp_practice/build",
+  "command": "/usr/bin/g++     -g   -std=gnu++14 -o CMakeFiles/cpp_practice.dir/basics/class_inherit.cpp.o -c /home/rk3399/cpp_practice/basics/class_inherit.cpp",
+  "file": "/home/rk3399/cpp_practice/basics/class_inherit.cpp"
+},
+{
+  "directory": "/home/rk3399/cpp_practice/build",
+  "command": "/usr/bin/g++     -g   -std=gnu++14 -o CMakeFiles/cpp_practice.dir/basics/dynamic_ram.cpp.o -c /home/rk3399/cpp_practice/basics/dynamic_ram.cpp",
+  "file": "/home/rk3399/cpp_practice/basics/dynamic_ram.cpp"
+},
+{
+  "directory": "/home/rk3399/cpp_practice/build",
+  "command": "/usr/bin/g++     -g   -std=gnu++14 -o CMakeFiles/cpp_practice.dir/basics/first.cpp.o -c /home/rk3399/cpp_practice/basics/first.cpp",
+  "file": "/home/rk3399/cpp_practice/basics/first.cpp"
+},
+{
+  "directory": "/home/rk3399/cpp_practice/build",
+  "command": "/usr/bin/g++     -g   -std=gnu++14 -o CMakeFiles/cpp_practice.dir/basics/friend_class_func.cpp.o -c /home/rk3399/cpp_practice/basics/friend_class_func.cpp",
+  "file": "/home/rk3399/cpp_practice/basics/friend_class_func.cpp"
+},
+{
+  "directory": "/home/rk3399/cpp_practice/build",
+  "command": "/usr/bin/g++     -g   -std=gnu++14 -o CMakeFiles/cpp_practice.dir/basics/template.cpp.o -c /home/rk3399/cpp_practice/basics/template.cpp",
+  "file": "/home/rk3399/cpp_practice/basics/template.cpp"
+},
+{
+  "directory": "/home/rk3399/cpp_practice/build",
+  "command": "/usr/bin/g++     -g   -std=gnu++14 -o CMakeFiles/cpp_practice.dir/basics/test.cpp.o -c /home/rk3399/cpp_practice/basics/test.cpp",
+  "file": "/home/rk3399/cpp_practice/basics/test.cpp"
+},
+{
+  "directory": "/home/rk3399/cpp_practice/build",
+  "command": "/usr/bin/g++     -g   -std=gnu++14 -o CMakeFiles/cpp_practice.dir/basics/initialize_list.cpp.o -c /home/rk3399/cpp_practice/basics/initialize_list.cpp",
+  "file": "/home/rk3399/cpp_practice/basics/initialize_list.cpp"
+}
+]
